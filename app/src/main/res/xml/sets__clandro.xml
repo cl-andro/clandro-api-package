@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="sets__clandro_api_app"
+        app:title="@string/sets__clandro_api_app___val__title"
+        app:summary="@string/sets__clandro_api_app___val__summary"
+        app:isPreferenceVisible="false"
+        app:fragment="com.clandro.api.settings.fragments.clandro_api_app.ClandroAPIPreferencesFragment"/>
+
+    <Preference
+        app:key="link__clandro_about"
+        app:title="@string/link__about___val__title"
+        app:persistent="false"/>
+
+    <Preference
+        app:key="link__clandro_donate"
+        app:title="@string/link__donate___val__title"
+        app:persistent="false"
+        app:isPreferenceVisible="false"/>
+
+</PreferenceScreen>
